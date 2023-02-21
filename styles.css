@@ -102,7 +102,6 @@ body{
     font-size:36px;
     color:#1F2737;
     
-
 }
 
 .second-body {
@@ -129,4 +128,31 @@ body{
 .one .text {
 
     text-align: center;
+}
+
+/* Third section  */
+
+.Third-section {
+
+   height: 450px;
+   background-color:#E5E7EB;
+   display: flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content: center;
+}
+
+.quotes,.author {
+ 
+   font-style:italic;
+   font-size: 36px;
+   color:#2F2937;
+   font-weight:100;
+}
+
+.author {
+    font-weight:400;
+    font-style:normal;
+    align-self:flex-end;
+    margin-right: 75px;
 }
