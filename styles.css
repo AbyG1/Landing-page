@@ -4,6 +4,8 @@ body{
     font-family: 'Roboto',"San-serif"
 }
  
+/* hero section */
+
 .header{
     display: flex;
     justify-content:space-around;
@@ -54,7 +56,6 @@ body{
 
 .body-text{
     max-width:350px;
-    
     display:flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -79,3 +80,4 @@ body{
     margin-top: 10px;
 }
   
+/* second section */
