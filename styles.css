@@ -71,7 +71,7 @@ body{
     
 }
 
-.button{
+.hero-body .button{
     background-color:#3882f6;
     border-radius:8px;
     padding: 10px 20px;
@@ -84,7 +84,7 @@ body{
 
 .button:hover {
 
-    background:#0b7dda;
+    background:#0c82e2;
 }
   
 /* second section */
@@ -125,9 +125,10 @@ body{
     border: 5px solid #3882f6;
 }
 
-.one .text {
+.one .stext {
 
     text-align: center;
+    color:#1F2737;
 }
 
 /* Third section  */
@@ -146,7 +147,7 @@ body{
  
    font-style:italic;
    font-size: 36px;
-   color:#2F2937;
+   color:#59585c;
    font-weight:100;
 }
 
@@ -155,4 +156,55 @@ body{
     font-style:normal;
     align-self:flex-end;
     margin-right: 75px;
+
+}
+.fourth-section {
+
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.f-container {
+    width:900px;
+    height:160px;
+    background-color: #3882f6;
+    display:flex;
+    border-radius:20px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.heading,.text{
+    color:#E5E7EB;
+    font-size:24px;
+}
+
+.text {
+    font-size:18px;
+}
+
+.f-container button {
+    background-color:#3882f6;
+    color:#E5E7EB;
+    border-color:#E5E7EB;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius:8px;
+    font-size:medium;
+
+}
+
+.footer{
+    height:120px;
+    background-color:#1F2737;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footext {
+    color:#f9faf8;
+    font-size:20px;
 }
